@@ -1,0 +1,15 @@
+n
+
+{
+
+    local a := 0;
+    local i := 1;
+    while (i <= n) do {
+
+        a := (a + i);
+        i := (i + 1);
+
+    };
+    a
+
+}

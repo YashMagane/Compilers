@@ -1,0 +1,26 @@
+n
+{
+    local i := 2;
+    local a := 0;
+    local b := 1;
+    local flag := 1;
+
+    while ((n <= 1) & ((flag <= 1) & (1 <= flag))) do {
+
+        flag := 0;
+        b := n;
+
+    };
+
+    while ((i <= n) & ((flag <= 1) & (1 <= flag))) do {
+
+        b := (a + b);
+        a := (b - a);
+
+        i := (i + 1);
+
+    };
+
+    b
+
+}
